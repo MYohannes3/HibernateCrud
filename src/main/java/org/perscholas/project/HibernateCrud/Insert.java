@@ -12,7 +12,7 @@ public class Insert {
 		Session ses = HibernateUtil.getSession();
 		try(factory;ses){
 			
-			//Begin Transaction
+			//Begin  Transaction
 			ses.beginTransaction();
 			
 			//Create emp obj
